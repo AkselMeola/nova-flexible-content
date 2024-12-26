@@ -29,6 +29,7 @@
                     </link-button>
 
                     <Button
+                        v-if="yes"
                         ref="confirmButton"
                         dusk="confirm-delete-button"
                         :loading="working"
